@@ -26,11 +26,11 @@ Full videos: [demo_1.mp4](demo/demo_1.mp4) · [demo_2.mp4](demo/demo_2.mp4)
 
 ### System architecture
 
-![System architecture](docs/images/system_architecture.jpg)
+![System architecture](images/system_architecture.jpg)
 
 ### Block diagram
 
-![Block diagram](docs/images/block_diagram.jpg)
+![Block diagram](images/block_diagram.jpg)
 
 ### DTW recursion
 
@@ -42,7 +42,7 @@ Mel scale: `Mel(f) = 2595 · log10(1 + f/700)`
 
 ## Hardware
 
-![Hardware setup](docs/images/hardware_setup.jpg)
+![Hardware setup](images/hardware_setup.jpg)
 
 | Component | Function | Interface |
 |---|---|---|
@@ -62,7 +62,7 @@ python/
   requirements.txt
 rtl/
   voice.v              UART receiver (9600 baud) + 50 Hz servo PWM generator
-docs/images/           architecture, block diagram, hardware setup
+images/           architecture, block diagram, hardware setup
 demo/                  demo videos and GIFs
 ```
 
